@@ -1,0 +1,550 @@
+
+{
+    "appName": "Algo Tutor",
+    "lessons": "Lessons",
+    "files": "Files",
+    "news": "News",
+    "qa": "Q&A",
+    "teachers": "Teachers",
+    "teacherLogin": "Teacher Login",
+    "switchLanguage": "Switch to Français",
+    "landing": {
+        "hero": {
+            "title": "Learn Algorithms, the Right Way.",
+            "subtitle": "Master the fundamentals and advanced topics of algorithms with interactive tutorials, and expert guidance.",
+            "cta": {
+                "start": "Start Learning",
+                "ask": "Ask a Question"
+            }
+        },
+        "news": {
+            "title": "What's New"
+        },
+        "lessons": {
+            "title": "Lessons by Grade",
+            "description": "Browse lessons organized by difficulty.",
+            "viewAll": "View all lessons"
+        },
+        "qna": {
+            "title": "Ask a Question",
+            "description": "Stuck on something? Ask our community of teachers.",
+            "emailPlaceholder": "Your Email",
+            "teacherPlaceholder": "Select a teacher",
+            "questionPlaceholder": "Your question...",
+            "submit": "Submit Question",
+            "toast": {
+                "missing": {
+                    "title": "Missing Fields",
+                    "description": "Please fill out all fields to submit your question."
+                },
+                "success": {
+                    "title": "Question Submitted!",
+                    "description": "Your question has been sent to the teacher."
+                }
+            }
+        },
+        "files": {
+            "title": "Course Files",
+            "description": "Download course materials, exercises, and more.",
+            "fileCount": "{count, plural, one {file} other {files}}",
+            "viewAll": "View All Files"
+        },
+        "teachers": {
+            "title": "Our Teachers",
+            "description": "Learn from experienced professionals.",
+            "viewAll": "View All Teachers"
+        }
+    },
+    "aboutProject": {
+        "title": "About This Project",
+        "content": "This website was built by {name} to provide students with easy access to course files and offer learning assistance. It's a centralized hub for all your algorithm needs, from tutorials to direct Q&A with your teachers."
+    },
+    "footer": {
+        "copyright": "Algo Tutor. All rights reserved."
+    },
+    "lessonsPage": {
+        "title": "All Lessons"
+    },
+    "lesson": {
+        "concept": "Concept",
+        "example": "Example",
+        "exercise": {
+            "title": "Exercise",
+            "showAnswer": "Show Answer",
+            "hideAnswer": "Hide Answer"
+        },
+        "next": {
+            "prompt": "Ready for the next step?"
+        },
+        "playground": {
+            "title": "Algo Playground",
+            "description": "Test your pseudo-code instantly. No setup required.",
+            "code": "Code",
+            "stdin": "Input (stdin)",
+            "output": "Terminal",
+            "run": "Run Code",
+            "running": "Running..."
+        }
+    },
+    "filesPage": {
+        "title": "Course Files",
+        "download": "Download"
+    },
+    "newsPage": {
+        "title": "News & Announcements",
+        "readMore": "Read More"
+    },
+    "teachersPage": {
+        "title": "Our Instructors",
+        "subtitle": "Learn from the best. Our teachers are experienced professionals passionate about algorithms."
+    },
+    "qnaPage": {
+        "title": "Pinned Questions",
+        "subtitle": "A collection of frequently asked and important questions answered by our teachers.",
+        "answeredBy": "Answered by",
+        "noQuestions": {
+            "title": "No Pinned Questions Yet",
+            "description": "Check back later for important questions and answers pinned by our instructors."
+        }
+    },
+    "login": {
+        "title": "Login",
+        "description": "Enter your email below to login to your dashboard.",
+        "email": "Email",
+        "password": "Password",
+        "forgotPassword": "Forgot your password?",
+        "loginButton": "Login",
+        "googleButton": "Login with Google",
+        "noAccount": "Don't have an account?",
+        "signUpLink": "Sign up",
+        "pendingApproval": "Your application is still pending approval.",
+        "invalidCredentials": "Invalid credentials",
+        "userNotFound": "The user doesn't exist",
+        "emailIncorrect": "This email is not registered.",
+        "passwordIncorrect": "The password you entered is incorrect."
+    },
+    "register": {
+        "title": "Teacher Registration",
+        "description": "Join our team of expert algorithm instructors.",
+        "firstName": "First name",
+        "firstNamePlaceholder": "Jane",
+        "lastName": "Last name",
+        "lastNamePlaceholder": "Doe",
+        "email": "Email",
+        "password": "Password",
+        "createAccountButton": "Create an account",
+        "googleButton": "Sign up with Google",
+        "alreadyHaveAccount": "Already have an account?",
+        "signInLink": "Sign in",
+        "defaultBio": "New teacher pending approval.",
+        "toast": {
+            "missing": {
+                "title": "Missing Fields",
+                "description": "Please fill out all registration fields."
+            },
+            "success": {
+                "title": "Registration Submitted",
+                "description": "Your application has been sent for approval. You will be redirected to the login page."
+            }
+        }
+    },
+    "admin": {
+        "title": "Admin Dashboard",
+        "description": "Manage teacher approvals and course content.",
+        "tabs": {
+            "management": "Teacher Management",
+            "questions": "Student Questions",
+            "addTeacher": "Add Teacher",
+            "fileManagement": "File Management"
+        },
+        "fileManagement": {
+            "title": "File Management",
+            "description": "Organize and upload files for each year and semester.",
+            "addYear": "Add Year",
+            "semester": "Semester",
+            "noFiles": "No files in this category."
+        },
+        "management": {
+            "title": "Teacher Approvals",
+            "description": "Approve, reject, or delete teacher accounts.",
+            "status": {
+                "approved": "Approved",
+                "pending": "Pending"
+            },
+            "actions": {
+                "approve": "Approve",
+                "reject": "Reject",
+                "revoke": "Revoke"
+            },
+            "deleteDialog": {
+                "title": "Are you sure?",
+                "description": "This action cannot be undone. This will permanently delete the teacher account for {name}."
+            }
+        },
+        "questions": {
+            "tabs": {
+                "pending": "Pending Questions ({count})",
+                "answered": "Answered Questions ({count})"
+            },
+            "from": "From",
+            "answerPlaceholder": "Type your answer here...",
+            "submitButton": "Submit Answer via Email",
+            "pending": {
+                "title": "Awaiting Your Response",
+                "description": "Review and answer questions from your students.",
+                "none": "No pending questions."
+            },
+            "answered": {
+                "title": "Answered Questions",
+                "description": "A log of your previously answered questions.",
+                "badge": "Answered",
+                "none": "You haven't answered any questions yet."
+            }
+        },
+        "addTeacher": {
+            "title": "Add New Teacher",
+            "description": "Create a new teacher account. They will be automatically approved.",
+            "labels": {
+                "firstName": "First name",
+                "lastName": "Last name",
+                "email": "Email"
+            },
+            "addButton": "Add Teacher",
+            "defaultBio": "New teacher profile.",
+            "toast": {
+                "missing": {
+                    "title": "Missing Fields",
+                    "description": "Please fill out all fields to add a new teacher."
+                },
+                "success": {
+                    "title": "Teacher Added",
+                    "description": "{name} has been added and approved."
+                }
+            }
+        }
+    },
+    "teacher": {
+        "dashboard": {
+            "title": "Teacher Dashboard",
+            "description": "Manage your student questions and course materials.",
+            "questions": {
+                "pendingTab": "Pending Questions ({count})",
+                "answeredTab": "Answered Questions ({count})",
+                "from": "From",
+                "answerPlaceholder": "Type your answer here to copy it to your email client...",
+                "submitAnswer": "Submit Answer",
+                "pendingTitle": "Awaiting Your Response",
+                "pendingDescription": "Review and answer questions from your students.",
+                "noPending": "No pending questions.",
+                "answeredTitle": "Answered Questions",
+                "answeredDescription": "A log of your previously answered questions.",
+                "answeredBadge": "Answered",
+                "noAnswered": "You haven't answered any questions yet."
+            },
+            "uploads": {
+                "title": "Upload Files",
+                "description": "Upload course materials, examples, or solutions.",
+                "uploadButton": "Upload File"
+            },
+            "profile": {
+                "title": "Your Profile"
+            }
+        },
+        "news": {
+            "title": "Manage News Posts",
+            "create": {
+                "title": "Create New Post",
+                "description": "Fill in the details for your new article.",
+                "labels": {
+                    "title": "Title",
+                    "summary": "Summary",
+                    "content": "Content",
+                    "image": "Cover Image"
+                },
+                "placeholders": {
+                    "title": "Enter a catchy title",
+                    "summary": "A brief summary for the news feed.",
+                    "content": "Write the full article content here."
+                },
+                "publishButton": "Publish Post"
+            },
+            "published": {
+                "title": "Published Articles",
+                "description": "A list of all news articles.",
+                "table": {
+                    "title": "Title",
+                    "date": "Published Date",
+                    "actions": "Actions"
+                },
+                "noArticles": "No articles published yet."
+            },
+            "toast": {
+                "missing": {
+                    "title": "Missing fields",
+                    "description": "Please fill out all required fields."
+                },
+                "published": {
+                    "title": "Post Published",
+                    "description": "Your article \"{title}\" has been successfully published."
+                },
+                "deleted": {
+                    "title": "Post Deleted",
+                    "description": "The article has been removed."
+                }
+            }
+        },
+        "settings": {
+            "title": "Your Settings",
+            "notFound": "Teacher not found.",
+            "avatar": {
+                "title": "Profile Picture",
+                "description": "Update your avatar.",
+                "changeButton": "Change Picture"
+            },
+            "personal": {
+                "title": "Personal Information",
+                "description": "Update your name, email, and bio.",
+                "labels": {
+                    "name": "Name",
+                    "email": "Email",
+                    "bio": "Description (Bio)"
+                },
+                "placeholders": {
+                    "bio": "Tell us a little about yourself."
+                }
+            },
+            "password": {
+                "title": "Change Password",
+                "description": "For security, please enter your current and new password.",
+                "labels": {
+                    "current": "Current Password",
+                    "new": "New Password",
+                    "confirm": "Confirm New Password"
+                }
+            },
+            "saveButton": "Save All Changes",
+            "toast": {
+                "saved": {
+                    "title": "Settings Saved",
+                    "description": "Your profile has been updated successfully."
+                }
+            }
+        }
+    },
+    "uploads": {
+        "title": "Manage Uploads",
+        "new": {
+            "title": "Upload New File",
+            "description": "Select a grade, semester, and category for your file.",
+            "placeholders": {
+                "grade": "Select a Grade",
+                "category": "Select a Category",
+                "semester": "Select a Semester"
+            },
+            "uploadButton": "Add File",
+            "chooseFileButton": "Choose File",
+            "uploading": "Uploading..."
+        },
+        "edit": {
+            "title": "Edit File",
+            "description": "Update the details for this file."
+        },
+        "myUploads": {
+            "title": "Your Uploads",
+            "description": "A list of files you have uploaded.",
+            "table": {
+                "fileName": "File Name",
+                "grade": "Grade",
+                "category": "Category",
+                "actions": "Actions"
+            },
+            "noFiles": "No files uploaded yet."
+        },
+        "toast": {
+            "missing": {
+                "title": "Missing information",
+                "description": "Please select a file, grade, category, and semester."
+            },
+            "success": {
+                "title": "Upload successful",
+                "description": "Your file \"{fileName}\" has been uploaded."
+            },
+            "updated": {
+                "title": "Update successful",
+                "description": "The file details have been updated."
+            },
+            "deleted": {
+                "title": "File Deleted",
+                "description": "The file has been permanently removed."
+            }
+        }
+    },
+    "grades": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced",
+        "grade-1": "First Year",
+        "grade-2": "Second Year"
+    },
+    "fileCategories": {
+        "cat-1": {
+            "name": "TD",
+            "description": "Travaux Dirigés (Directed Work)"
+        },
+        "cat-2": {
+            "name": "TP",
+            "description": "Travaux Pratiques (Practical Work)"
+        },
+        "cat-3": {
+            "name": "Cours",
+            "description": "Lecture Notes and Slides"
+        }
+    },
+    "sidebar": {
+        "admin": {
+            "management": "Teacher Management"
+        },
+        "teacher": {
+            "dashboard": "Dashboard",
+            "news": "Post News",
+            "uploads": "Uploads",
+            "settings": "Settings"
+        }
+    },
+    "userNav": {
+        "dashboard": "Dashboard",
+        "settings": "Settings",
+        "logout": "Logout"
+    },
+    "actions": {
+        "title": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "upload": "Upload"
+    },
+    "lessonContents": {
+        "c-basics-01": {
+            "title": "Introduction to Algorithms",
+            "description": "Learn the basics of algorithms, their history, and why they are so powerful.",
+            "content": "An algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. Algorithms are always unambiguous and are used as specifications for performing calculations, data processing, automated reasoning, and other tasks.",
+            "exercise": { "question": "Write a simple 'Hello, World!' algorithm in pseudocode." }
+        },
+        "c-syntax-02": {
+            "title": "Pseudocode Syntax",
+            "description": "Understand the basic syntax for writing algorithms in pseudocode.",
+            "content": "Pseudocode is an informal high-level description of the operating principle of a computer program or other algorithm. It uses the structural conventions of a normal programming language, but is intended for human reading rather than machine reading. There's no strict syntax, but clarity is key.",
+            "exercise": { "question": "Fix the pseudocode to correctly describe printing 'Algo is fun!'" }
+        },
+        "c-variables-03": {
+            "title": "Algorithm Variables",
+            "description": "Understand how to declare and use variables to store data in your algorithms.",
+            "content": "Variables are containers for storing data values. In algorithms, we often declare them with a type and a name, for example: `DECLARE myNum as INTEGER`. We can then assign values, like `SET myNum to 15`.",
+            "exercise": { "question": "Declare an integer variable, assign it the value 42, and output it." }
+        },
+        "c-data-types-04": {
+            "title": "Algorithm Data Types",
+            "description": "Explore the different data types used in algorithms for storing various kinds of data.",
+            "content": "A data type specifies the type of data that a variable can store. Common types include INTEGER, REAL (for floating-point numbers), CHARACTER, and STRING. Choosing the right data type is important for correctness and efficiency.",
+            "exercise": { "question": "Create variables for an integer, a real number, and a character, and output their values." }
+        },
+        "c-operators-05": {
+            "title": "Algorithm Operators",
+            "description": "Learn about arithmetic, assignment, comparison, and logical operators in algorithms.",
+            "content": "Operators are used to perform operations on variables and values. These include arithmetic (+, -, *, /), assignment (SET...TO), comparison (=, <>, >), and logical (AND, OR, NOT) operators.",
+            "exercise": { "question": "Write an algorithm that uses the multiplication operator to multiply two numbers and print the result." }
+        },
+        "c-control-flow-06": {
+            "title": "Control Flow (If...Else)",
+            "description": "Learn to control the flow of your algorithm using conditional statements.",
+            "content": "Use `IF...THEN` to specify a block of instructions to be executed if a condition is true. Use `ELSE` to specify a block of instructions to be executed if the condition is false. Use `ELSE IF` to specify a new condition to test, if the first condition is false.",
+            "exercise": { "question": "Write an algorithm to check if a number is positive or negative." }
+        },
+        "c-switch-07": {
+            "title": "Switch/Case Statement",
+            "description": "Learn to use the switch/case statement for multi-way branching.",
+            "content": "The switch statement allows a variable to be tested for equality against a list of values. Each value is called a case. It's a cleaner alternative to long `if-else if-else` chains. A `DEFAULT` case can handle all other values.",
+            "exercise": { "question": "Write an algorithm that outputs the name of a month based on its number (1-12)." }
+        },
+        "c-loops-08": {
+            "title": "Loops (For & While)",
+            "description": "Master loops to execute a block of instructions multiple times.",
+            "content": "Loops execute a block of code as long as a specified condition is met. The `WHILE` loop continues as long as a condition is true. The `FOR` loop is great when you know the number of iterations in advance.",
+            "exercise": { "question": "Use a `WHILE` loop to output numbers from 1 to 10." }
+        },
+        "c-arrays-09": {
+            "title": "Arrays",
+            "description": "Learn to store multiple values of the same type in an array.",
+            "content": "Arrays are used to store multiple values in a single variable. To declare an array, you specify the name, the type of data, and the size. Elements are accessed via an index, usually starting from 0 or 1.",
+            "exercise": { "question": "Declare an array of 3 integers, assign values, and output the second element." }
+        },
+        "c-pointers-10": {
+            "title": "Pointers & References",
+            "description": "Understand the powerful concept of pointers and memory references.",
+            "content": "A pointer is a variable that stores the memory address of another variable. This allows for indirect manipulation of data and is fundamental to many advanced data structures and algorithms. It's a key concept for efficiency.",
+            "exercise": { "question": "Describe in pseudocode how you would change a variable's value using a pointer." }
+        },
+        "c-functions-11": {
+            "title": "Functions/Procedures",
+            "description": "Learn to create and use functions to structure your algorithms.",
+            "content": "A function (or procedure) is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. Functions are crucial for reusing code and breaking down complex problems into smaller, manageable pieces.",
+            "exercise": { "question": "Create a function named `greet` that outputs 'Hello there!' and call it." }
+        },
+        "c-structs-12": {
+            "title": "Structs/Records",
+            "description": "Combine different data types into a single user-defined type.",
+            "content": "Structures (or records) are a way to group several related variables into one place. Each variable in the structure is a member or field. This is useful for representing real-world objects with multiple properties.",
+            "exercise": { "question": "Define a record for a `Car` with fields for `brand` (string) and `year` (integer). Create an instance and output its year." }
+        },
+        "c-recursion-13": {
+            "title": "Recursion",
+            "description": "Learn how a function can call itself to solve problems.",
+            "content": "Recursion is the technique of making a function call itself. This provides a way to break complicated problems down into simple problems which are easier to solve. A recursive function must have a base case that stops the recursion, or it will loop infinitely.",
+            "exercise": { "question": "Write a recursive function to calculate the factorial of a number." }
+        },
+        "c-constants-14": {
+            "title": "Constants",
+            "description": "Learn how to define variables that cannot be changed.",
+            "content": "If you have a variable that should not be changed, you can use the `const` keyword. This will declare the variable as 'constant', which means that it is unchangeable and read-only. This is useful for values that are known to be fixed, like PI.",
+            "exercise": { "question": "Declare a constant for PI and print it." }
+        },
+        "c-booleans-15": {
+            "title": "Booleans",
+            "description": "Learn about the boolean data type for true/false values.",
+            "content": "A boolean variable is declared with the `bool` keyword and can only take the values `true` or `false`. When the value is returned, `true` = 1 and `false` = 0. You must include the `<stdbool.h>` header file to use this type.",
+            "exercise": { "question": "Declare a boolean variable for `isLightOn` and set it to false, then print its value." }
+        },
+        "c-break-continue-16": {
+            "title": "Break and Continue",
+            "description": "Understand how to control the flow inside loops.",
+            "content": "The `break` statement can be used to jump out of a `switch` statement or a loop. The `continue` statement breaks one iteration in the loop, if a specified condition occurs, and continues with the next iteration in the loop.",
+            "exercise": { "question": "Write a loop from 0 to 9, but use `continue` to skip printing the number 5." }
+        },
+        "c-strings-17": {
+            "title": "Strings",
+            "description": "Learn how to work with text using strings.",
+            "content": "Strings are used for storing text/characters. Unlike many other programming languages, C does not have a String type to easily create string variables. Instead, you must use a `char` array and null-terminate it.",
+            "exercise": { "question": "Create a string variable that holds the value 'Volvo' and print it." }
+        },
+        "c-function-parameters-18": {
+            "title": "Function Parameters",
+            "description": "Learn how to pass data to functions.",
+            "content": "Information can be passed to functions as a parameter. Parameters act as variables inside the function. You can add as many parameters as you want, just separate them with a comma.",
+            "exercise": { "question": "Create a function that takes two integers and prints their sum." }
+        },
+        "c-user-input-19": {
+            "title": "User Input",
+            "description": "Learn how to get input from the user.",
+            "content": "The `scanf()` function is used to get user input. It takes two arguments: the format specifier of the variable (`%d`, `%c`, etc.) and the reference operator `&` on the variable to store the input.",
+            "exercise": { "question": "Write a program that asks for the user's first name and then greets them." }
+        },
+        "c-enums-20": {
+            "title": "Enums",
+            "description": "Learn to create your own data type with a set of constant values.",
+            "content": "An `enum` is a special type that represents a group of constants (unchangeable values). To create an enum, use the `enum` keyword, followed by the name of the enum, and separate the enum items with a comma.",
+            "exercise": { "question": "Create an enum for `Status` with values for PENDING, APPROVED, and REJECTED, then print the numeric value of APPROVED." }
+        }
+    }
+}

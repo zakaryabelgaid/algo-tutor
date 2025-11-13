@@ -1,0 +1,24 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper function to check if a user is an authenticated teacher or admin
+    function isAuthorized() {
+      // For this to work, you must be using Custom Claims or have a way to check roles.
+      // Assuming a `teachers` collection where roles are stored.
+      // This rule is simplified and assumes if a user is authenticated, they have a doc in 'teachers'
+      // A more secure rule would check `request.auth.token.role` if you set custom claims.
+      let userDoc = firestore.get(/databases/(default)/documents/teachers/$(request.auth.uid)).data;
+      return request.auth != null && (userDoc.role == 'admin' || (userDoc.role == 'teacher' && userDoc.isApproved == true));
+    }
+
+    // Match all files in the 'uploads' folder
+    match /uploads/{allPaths=**} {
+      // Allow anyone to read (download) files. This is necessary for the public download URLs to work.
+      allow read: if true;
+
+      // Allow write (create, update, delete) only for authenticated users who are admins or approved teachers.
+      allow write: if isAuthorized();
+    }
+  }
+}

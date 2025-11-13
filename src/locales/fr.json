@@ -1,0 +1,550 @@
+
+{
+    "appName": "Algo Tutor",
+    "lessons": "Leçons",
+    "files": "Fichiers",
+    "news": "Actualités",
+    "qa": "Q&R",
+    "teachers": "Enseignants",
+    "teacherLogin": "Connexion Enseignant",
+    "switchLanguage": "Passer à l'anglais",
+    "landing": {
+        "hero": {
+            "title": "Apprenez les algorithmes, de la bonne manière.",
+            "subtitle": "Maîtrisez les fondamentaux et les sujets avancés des algorithmes avec des tutoriels interactifs et des conseils d'experts.",
+            "cta": {
+                "start": "Commencer à apprendre",
+                "ask": "Poser une question"
+            }
+        },
+        "news": {
+            "title": "Quoi de neuf"
+        },
+        "lessons": {
+            "title": "Leçons par niveau",
+            "description": "Parcourez les leçons organisées par difficulté.",
+            "viewAll": "Voir toutes les leçons"
+        },
+        "qna": {
+            "title": "Poser une question",
+            "description": "Bloqué sur quelque chose ? Demandez à notre communauté d'enseignants.",
+            "emailPlaceholder": "Votre Email",
+            "teacherPlaceholder": "Sélectionnez un enseignant",
+            "questionPlaceholder": "Votre question...",
+            "submit": "Soumettre la question",
+            "toast": {
+                "missing": {
+                    "title": "Champs manquants",
+                    "description": "Veuillez remplir tous les champs pour soumettre votre question."
+                },
+                "success": {
+                    "title": "Question soumise !",
+                    "description": "Votre question a été envoyée à l'enseignant."
+                }
+            }
+        },
+        "files": {
+            "title": "Fichiers de cours",
+            "description": "Téléchargez le matériel de cours, les exercices et plus encore.",
+            "fileCount": "{count, plural, one {fichier} other {fichiers}}",
+            "viewAll": "Voir tous les fichiers"
+        },
+        "teachers": {
+            "title": "Nos enseignants",
+            "description": "Apprenez auprès de professionnels expérimentés.",
+            "viewAll": "Voir tous les enseignants"
+        }
+    },
+    "aboutProject": {
+        "title": "À propos de ce projet",
+        "content": "Ce site web a été créé par {name} pour fournir aux étudiants un accès facile aux fichiers de cours et offrir une assistance à l'apprentissage. C'est une plateforme centralisée pour tous vos besoins en algorithmique, des tutoriels aux questions-réponses directes avec vos enseignants."
+    },
+    "footer": {
+        "copyright": "Algo Tutor. Tous droits réservés."
+    },
+    "lessonsPage": {
+        "title": "Toutes les leçons"
+    },
+    "lesson": {
+        "concept": "Concept",
+        "example": "Exemple",
+        "exercise": {
+            "title": "Exercice",
+            "showAnswer": "Afficher la réponse",
+            "hideAnswer": "Masquer la réponse"
+        },
+        "next": {
+            "prompt": "Prêt pour la prochaine étape ?"
+        },
+        "playground": {
+            "title": "Algo Playground",
+            "description": "Testez votre pseudo-code instantanément. Aucune configuration requise.",
+            "code": "Code",
+            "stdin": "Entrée (stdin)",
+            "output": "Terminal",
+            "run": "Exécuter le code",
+            "running": "Exécution..."
+        }
+    },
+    "filesPage": {
+        "title": "Fichiers de cours",
+        "download": "Télécharger"
+    },
+    "newsPage": {
+        "title": "Actualités et annonces",
+        "readMore": "Lire la suite"
+    },
+    "teachersPage": {
+        "title": "Nos instructeurs",
+        "subtitle": "Apprenez des meilleurs. Nos enseignants sont des professionnels expérimentés passionnés par l'algorithmique."
+    },
+    "qnaPage": {
+        "title": "Questions épinglées",
+        "subtitle": "Une collection de questions fréquentes et importantes répondues par nos enseignants.",
+        "answeredBy": "Répondu par",
+        "noQuestions": {
+            "title": "Aucune question épinglée pour le moment",
+            "description": "Revenez plus tard pour les questions et réponses importantes épinglées par nos instructeurs."
+        }
+    },
+    "login": {
+        "title": "Connexion",
+        "description": "Entrez votre email ci-dessous pour vous connecter à votre tableau de bord.",
+        "email": "Email",
+        "password": "Mot de passe",
+        "forgotPassword": "Mot de passe oublié ?",
+        "loginButton": "Se connecter",
+        "googleButton": "Se connecter avec Google",
+        "noAccount": "Vous n'avez pas de compte ?",
+        "signUpLink": "S'inscrire",
+        "pendingApproval": "Votre candidature est toujours en attente d'approbation.",
+        "invalidCredentials": "Identifiants invalides",
+        "userNotFound": "L'utilisateur n'existe pas",
+        "emailIncorrect": "Cet email n'est pas enregistré.",
+        "passwordIncorrect": "Le mot de passe que vous avez entré est incorrect."
+    },
+    "register": {
+        "title": "Inscription Enseignant",
+        "description": "Rejoignez notre équipe d'instructeurs experts en algorithmique.",
+        "firstName": "Prénom",
+        "firstNamePlaceholder": "Jeanne",
+        "lastName": "Nom",
+        "lastNamePlaceholder": "Dupont",
+        "email": "Email",
+        "password": "Mot de passe",
+        "createAccountButton": "Créer un compte",
+        "googleButton": "S'inscrire avec Google",
+        "alreadyHaveAccount": "Vous avez déjà un compte ?",
+        "signInLink": "Se connecter",
+        "defaultBio": "Nouveau professeur en attente d'approbation.",
+        "toast": {
+            "missing": {
+                "title": "Champs manquants",
+                "description": "Veuillez remplir tous les champs d'inscription."
+            },
+            "success": {
+                "title": "Inscription soumise",
+                "description": "Votre candidature a été envoyée pour approbation. Vous allez être redirigé vers la page de connexion."
+            }
+        }
+    },
+    "admin": {
+        "title": "Tableau de bord Admin",
+        "description": "Gérez les approbations des enseignants et le contenu des cours.",
+        "tabs": {
+            "management": "Gestion des enseignants",
+            "questions": "Questions des étudiants",
+            "addTeacher": "Ajouter un enseignant",
+            "fileManagement": "Gestion des fichiers"
+        },
+        "fileManagement": {
+            "title": "Gestion des fichiers",
+            "description": "Organisez et téléversez des fichiers pour chaque année et semestre.",
+            "addYear": "Ajouter une année",
+            "semester": "Semestre",
+            "noFiles": "Aucun fichier dans cette catégorie."
+        },
+        "management": {
+            "title": "Approbations des enseignants",
+            "description": "Approuvez, rejetez ou supprimez les comptes des enseignants.",
+            "status": {
+                "approved": "Approuvé",
+                "pending": "En attente"
+            },
+            "actions": {
+                "approve": "Approuver",
+                "reject": "Rejeter",
+                "revoke": "Révoquer"
+            },
+            "deleteDialog": {
+                "title": "Êtes-vous sûr ?",
+                "description": "Cette action est irréversible. Le compte de l'enseignant {name} sera définitivement supprimé."
+            }
+        },
+        "questions": {
+            "tabs": {
+                "pending": "Questions en attente ({count})",
+                "answered": "Questions répondues ({count})"
+            },
+            "from": "De",
+            "answerPlaceholder": "Tapez votre réponse ici...",
+            "submitButton": "Envoyer la réponse par email",
+            "pending": {
+                "title": "En attente de votre réponse",
+                "description": "Examinez et répondez aux questions de vos étudiants.",
+                "none": "Aucune question en attente."
+            },
+            "answered": {
+                "title": "Questions répondues",
+                "description": "Journal de vos questions précédemment répondues.",
+                "badge": "Répondu",
+                "none": "Vous n'avez encore répondu à aucune question."
+            }
+        },
+        "addTeacher": {
+            "title": "Ajouter un nouvel enseignant",
+            "description": "Créez un nouveau compte enseignant. Il sera automatiquement approuvé.",
+            "labels": {
+                "firstName": "Prénom",
+                "lastName": "Nom",
+                "email": "Email"
+            },
+            "addButton": "Ajouter l'enseignant",
+            "defaultBio": "Nouveau profil d'enseignant.",
+            "toast": {
+                "missing": {
+                    "title": "Champs manquants",
+                    "description": "Veuillez remplir tous les champs pour ajouter un nouvel enseignant."
+                },
+                "success": {
+                    "title": "Enseignant ajouté",
+                    "description": "{name} a été ajouté et approuvé."
+                }
+            }
+        }
+    },
+    "teacher": {
+        "dashboard": {
+            "title": "Tableau de bord Enseignant",
+            "description": "Gérez les questions de vos étudiants et le matériel de cours.",
+            "questions": {
+                "pendingTab": "Questions en attente ({count})",
+                "answeredTab": "Questions répondues ({count})",
+                "from": "De",
+                "answerPlaceholder": "Tapez votre réponse ici pour la copier dans votre client de messagerie...",
+                "submitAnswer": "Soumettre la réponse",
+                "pendingTitle": "En attente de votre réponse",
+                "pendingDescription": "Examinez et répondez aux questions de vos étudiants.",
+                "noPending": "Aucune question en attente.",
+                "answeredTitle": "Questions répondues",
+                "answeredDescription": "Journal de vos questions précédemment répondues.",
+                "answeredBadge": "Répondu",
+                "noAnswered": "Vous n'avez encore répondu à aucune question."
+            },
+            "uploads": {
+                "title": "Télécharger des fichiers",
+                "description": "Téléchargez du matériel de cours, des exemples ou des solutions.",
+                "uploadButton": "Télécharger le fichier"
+            },
+            "profile": {
+                "title": "Votre profil"
+            }
+        },
+        "news": {
+            "title": "Gérer les actualités",
+            "create": {
+                "title": "Créer une nouvelle publication",
+                "description": "Remplissez les détails de votre nouvel article.",
+                "labels": {
+                    "title": "Titre",
+                    "summary": "Résumé",
+                    "content": "Contenu",
+                    "image": "Image de couverture"
+                },
+                "placeholders": {
+                    "title": "Entrez un titre accrocheur",
+                    "summary": "Un bref résumé pour le fil d'actualités.",
+                    "content": "Rédigez le contenu complet de l'article ici."
+                },
+                "publishButton": "Publier l'article"
+            },
+            "published": {
+                "title": "Articles publiés",
+                "description": "Une liste de tous les articles d'actualité.",
+                "table": {
+                    "title": "Titre",
+                    "date": "Date de publication",
+                    "actions": "Actions"
+                },
+                "noArticles": "Aucun article publié pour le moment."
+            },
+            "toast": {
+                "missing": {
+                    "title": "Champs manquants",
+                    "description": "Veuillez remplir tous les champs obligatoires."
+                },
+                "published": {
+                    "title": "Article publié",
+                    "description": "Votre article \"{title}\" a été publié avec succès."
+                },
+                "deleted": {
+                    "title": "Article supprimé",
+                    "description": "L'article a été supprimé."
+                }
+            }
+        },
+        "settings": {
+            "title": "Vos paramètres",
+            "notFound": "Enseignant non trouvé.",
+            "avatar": {
+                "title": "Photo de profil",
+                "description": "Mettez à jour votre avatar.",
+                "changeButton": "Changer de photo"
+            },
+            "personal": {
+                "title": "Informations personnelles",
+                "description": "Mettez à jour votre nom, email et biographie.",
+                "labels": {
+                    "name": "Nom",
+                    "email": "Email",
+                    "bio": "Description (Bio)"
+                },
+                "placeholders": {
+                    "bio": "Dites-nous en un peu plus sur vous."
+                }
+            },
+            "password": {
+                "title": "Changer le mot de passe",
+                "description": "Pour des raisons de sécurité, veuillez entrer votre mot de passe actuel et le nouveau.",
+                "labels": {
+                    "current": "Mot de passe actuel",
+                    "new": "Nouveau mot de passe",
+                    "confirm": "Confirmer le nouveau mot de passe"
+                }
+            },
+            "saveButton": "Enregistrer les modifications",
+            "toast": {
+                "saved": {
+                    "title": "Paramètres enregistrés",
+                    "description": "Votre profil a été mis à jour avec succès."
+                }
+            }
+        }
+    },
+    "uploads": {
+        "title": "Gérer les téléversements",
+        "new": {
+            "title": "Téléverser un nouveau fichier",
+            "description": "Sélectionnez un niveau, un semestre et une catégorie pour votre fichier.",
+            "placeholders": {
+                "grade": "Sélectionner un niveau",
+                "category": "Sélectionner une catégorie",
+                "semester": "Sélectionner un semestre"
+            },
+            "uploadButton": "Ajouter un fichier",
+            "chooseFileButton": "Choisir le fichier",
+            "uploading": "Téléversement..."
+        },
+        "edit": {
+            "title": "Modifier le fichier",
+            "description": "Mettez à jour les détails de ce fichier."
+        },
+        "myUploads": {
+            "title": "Vos téléversements",
+            "description": "Une liste des fichiers que vous avez téléversés.",
+            "table": {
+                "fileName": "Nom du fichier",
+                "grade": "Niveau",
+                "category": "Catégorie",
+                "actions": "Actions"
+            },
+            "noFiles": "Aucun fichier téléversé pour le moment."
+        },
+        "toast": {
+            "missing": {
+                "title": "Informations manquantes",
+                "description": "Veuillez sélectionner un fichier, un niveau, une catégorie et un semestre."
+            },
+            "success": {
+                "title": "Téléversement réussi",
+                "description": "Votre fichier \"{fileName}\" a été téléversé."
+            },
+            "updated": {
+                "title": "Mise à jour réussie",
+                "description": "Les détails du fichier ont été mis à jour."
+            },
+            "deleted": {
+                "title": "Fichier supprimé",
+                "description": "Le fichier a été supprimé de manière permanente."
+            }
+        }
+    },
+    "grades": {
+        "beginner": "Débutant",
+        "intermediate": "Intermédiaire",
+        "advanced": "Avancé",
+        "grade-1": "Première Année",
+        "grade-2": "Deuxième Année"
+    },
+    "fileCategories": {
+        "cat-1": {
+            "name": "TD",
+            "description": "Travaux Dirigés"
+        },
+        "cat-2": {
+            "name": "TP",
+            "description": "Travaux Pratiques"
+        },
+        "cat-3": {
+            "name": "Cours",
+            "description": "Notes de cours et diapositives"
+        }
+    },
+    "sidebar": {
+        "admin": {
+            "management": "Gestion des enseignants"
+        },
+        "teacher": {
+            "dashboard": "Tableau de bord",
+            "news": "Publier une actualité",
+            "uploads": "Téléversements",
+            "settings": "Paramètres"
+        }
+    },
+    "userNav": {
+        "dashboard": "Tableau de bord",
+        "settings": "Paramètres",
+        "logout": "Déconnexion"
+    },
+    "actions": {
+        "title": "Actions",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "cancel": "Annuler",
+        "pin": "Épingler",
+        "unpin": "Désépingler",
+        "upload": "Téléverser"
+    },
+    "lessonContents": {
+        "c-basics-01": {
+            "title": "Introduction aux algorithmes",
+            "description": "Apprenez les bases des algorithmes, leur histoire et pourquoi ils sont si puissants.",
+            "content": "Un algorithme est une séquence finie d'instructions bien définies, implémentables par un ordinateur, généralement pour résoudre une classe de problèmes ou pour effectuer un calcul. Les algorithmes sont toujours sans ambiguïté et sont utilisés comme spécifications pour effectuer des calculs, du traitement de données, du raisonnement automatisé et d'autres tâches.",
+            "exercise": { "question": "Écrivez un algorithme simple 'Bonjour, le monde !' en pseudo-code." }
+        },
+        "c-syntax-02": {
+            "title": "Syntaxe du pseudo-code",
+            "description": "Comprenez la syntaxe de base pour écrire des algorithmes en pseudo-code.",
+            "content": "Le pseudo-code est une description informelle de haut niveau du principe de fonctionnement d'un programme informatique ou d'un autre algorithme. Il utilise les conventions structurelles d'un langage de programmation normal, mais il est destiné à la lecture humaine plutôt qu'à la lecture par machine. Il n'y a pas de syntaxe stricte, mais la clarté est essentielle.",
+            "exercise": { "question": "Corrigez le pseudo-code pour décrire correctement l'affichage de 'L'algo, c'est amusant !'" }
+        },
+        "c-variables-03": {
+            "title": "Variables en algorithmique",
+            "description": "Comprenez comment déclarer et utiliser des variables pour stocker des données dans vos algorithmes.",
+            "content": "Les variables sont des conteneurs pour stocker des valeurs de données. En algorithmique, nous les déclarons souvent avec un type et un nom, par exemple : `DÉCLARER monNum COMME ENTIER`. Nous pouvons ensuite leur assigner des valeurs, comme `METTRE monNum à 15`.",
+            "exercise": { "question": "Déclarez une variable entière, assignez-lui la valeur 42 et affichez-la." }
+        },
+        "c-data-types-04": {
+            "title": "Types de données en algorithmique",
+            "description": "Explorez les différents types de données utilisés dans les algorithmes pour stocker divers types de données.",
+            "content": "Un type de données spécifie le type de données qu'une variable peut stocker. Les types courants incluent ENTIER, RÉEL (pour les nombres à virgule flottante), CARACTÈRE et CHAÎNE. Choisir le bon type de données est important pour la justesse et l'efficacité.",
+            "exercise": { "question": "Créez des variables pour un entier, un nombre réel et un caractère, et affichez leurs valeurs." }
+        },
+        "c-operators-05": {
+            "title": "Opérateurs en algorithmique",
+            "description": "Apprenez les opérateurs arithmétiques, d'affectation, de comparaison et logiques dans les algorithmes.",
+            "content": "Les opérateurs sont utilisés pour effectuer des opérations sur des variables et des valeurs. Ceux-ci incluent les opérateurs arithmétiques (+, -, *, /), d'affectation (METTRE...À), de comparaison (=, <>, >) et logiques (ET, OU, NON).",
+            "exercise": { "question": "Écrivez un algorithme qui utilise l'opérateur de multiplication pour multiplier deux nombres et afficher le résultat." }
+        },
+        "c-control-flow-06": {
+            "title": "Flux de contrôle (Si...Alors)",
+            "description": "Apprenez à contrôler le flux de votre algorithme à l'aide d'instructions conditionnelles.",
+            "content": "Utilisez `SI...ALORS` pour spécifier un bloc d'instructions à exécuter si une condition est vraie. Utilisez `SINON` pour spécifier un bloc d'instructions à exécuter si la condition est fausse. Utilisez `SINON SI` pour spécifier une nouvelle condition à tester si la première est fausse.",
+            "exercise": { "question": "Écrivez un algorithme pour vérifier si un nombre est positif ou négatif." }
+        },
+        "c-switch-07": {
+            "title": "Instruction Selon/Cas",
+            "description": "Apprenez à utiliser l'instruction selon/cas pour des branchements multiples.",
+            "content": "L'instruction `SELON` permet de tester l'égalité d'une variable par rapport à une liste de valeurs. Chaque valeur est un `CAS`. C'est une alternative plus propre aux longues chaînes `si-sinon si-sinon`. Un cas `PAR DÉFAUT` peut gérer toutes les autres valeurs.",
+            "exercise": { "question": "Écrivez un algorithme qui affiche le nom d'un mois en fonction de son numéro (1-12)." }
+        },
+        "c-loops-08": {
+            "title": "Boucles (Pour & Tant que)",
+            "description": "Maîtrisez les boucles pour exécuter un bloc d'instructions plusieurs fois.",
+            "content": "Les boucles exécutent un bloc de code tant qu'une condition spécifiée est remplie. La boucle `TANT QUE` continue tant qu'une condition est vraie. La boucle `POUR` est idéale lorsque vous connaissez à l'avance le nombre d'itérations.",
+            "exercise": { "question": "Utilisez une boucle `TANT QUE` pour afficher les nombres de 1 à 10." }
+        },
+        "c-arrays-09": {
+            "title": "Tableaux",
+            "description": "Apprenez à stocker plusieurs valeurs du même type dans un tableau.",
+            "content": "Les tableaux sont utilisés pour stocker plusieurs valeurs dans une seule variable. Pour déclarer un tableau, vous spécifiez le nom, le type de données et la taille. Les éléments sont accessibles via un indice, commençant généralement à 0 ou 1.",
+            "exercise": { "question": "Déclarez un tableau de 3 entiers, assignez-leur des valeurs et affichez le deuxième élément." }
+        },
+        "c-pointers-10": {
+            "title": "Pointeurs & Références",
+            "description": "Comprenez le puissant concept des pointeurs et des références mémoire.",
+            "content": "Un pointeur est une variable qui stocke l'adresse mémoire d'une autre variable. Cela permet une manipulation indirecte des données et est fondamental pour de nombreuses structures de données et algorithmes avancés. C'est un concept clé pour l'efficacité.",
+            "exercise": { "question": "Décrivez en pseudo-code comment vous changeriez la valeur d'une variable à l'aide d'un pointeur." }
+        },
+        "c-functions-11": {
+            "title": "Fonctions/Procédures",
+            "description": "Apprenez à créer et à utiliser des fonctions pour structurer vos algorithmes.",
+            "content": "Une fonction (ou procédure) est un bloc de code qui ne s'exécute que lorsqu'il est appelé. Vous pouvez passer des données, appelées paramètres, dans une fonction. Les fonctions sont cruciales pour réutiliser du code et décomposer des problèmes complexes en morceaux plus petits et gérables.",
+            "exercise": { "question": "Créez une fonction nommée `saluer` qui affiche 'Bonjour !' et appelez-la." }
+        },
+        "c-structs-12": {
+            "title": "Structures/Enregistrements",
+            "description": "Combinez différents types de données en un seul type défini par l'utilisateur.",
+            "content": "Les structures (ou enregistrements) sont un moyen de regrouper plusieurs variables liées en un seul endroit. Chaque variable de la structure est un membre ou un champ. C'est utile pour représenter des objets du monde réel avec plusieurs propriétés.",
+            "exercise": { "question": "Définissez un enregistrement pour une `Voiture` avec des champs pour la `marque` (chaîne) et l'\"année\" (entier). Créez une instance et affichez son année." }
+        },
+        "c-recursion-13": {
+            "title": "Récursivité",
+            "description": "Apprenez comment une fonction peut s'appeler elle-même pour résoudre des problèmes.",
+            "content": "La récursivité est la technique qui consiste à faire en sorte qu'une fonction s'appelle elle-même. Cela permet de décomposer des problèmes compliqués en problèmes simples plus faciles à résoudre. Une fonction récursive doit avoir un cas de base qui arrête la récursivité, sinon elle bouclera à l'infini.",
+            "exercise": { "question": "Écrivez une fonction récursive pour calculer la factorielle d'un nombre." }
+        },
+        "c-constants-14": {
+            "title": "Constantes",
+            "description": "Apprenez à définir des variables qui ne peuvent pas être modifiées.",
+            "content": "Si vous avez une variable qui ne doit pas être modifiée, vous pouvez utiliser le mot-clé `const`. Cela déclarera la variable comme 'constante', ce qui signifie qu'elle est immuable et en lecture seule. C'est utile pour les valeurs qui sont connues pour être fixes, comme PI.",
+            "exercise": { "question": "Déclarez une constante pour PI et affichez-la." }
+        },
+        "c-booleans-15": {
+            "title": "Booléens",
+            "description": "Découvrez le type de données booléen pour les valeurs vrai/faux.",
+            "content": "Une variable booléenne est déclarée avec le mot-clé `bool` et ne peut prendre que les valeurs `true` ou `false`. Lorsque la valeur est renvoyée, `true` = 1 et `false` = 0. Vous devez inclure le fichier d'en-tête `<stdbool.h>` pour utiliser ce type.",
+            "exercise": { "question": "Déclarez une variable booléenne pour `isLightOn`, mettez-la à false, puis affichez sa valeur." }
+        },
+        "c-break-continue-16": {
+            "title": "Break et Continue",
+            "description": "Comprenez comment contrôler le flux à l'intérieur des boucles.",
+            "content": "L'instruction `break` peut être utilisée pour sortir d'une instruction `switch` ou d'une boucle. L'instruction `continue` interrompt une itération dans la boucle, si une condition spécifiée se produit, et continue avec l'itération suivante dans la boucle.",
+            "exercise": { "question": "Écrivez une boucle de 0 à 9, mais utilisez `continue` pour sauter l'affichage du nombre 5." }
+        },
+        "c-strings-17": {
+            "title": "Chaînes de caractères",
+            "description": "Apprenez à travailler avec du texte en utilisant des chaînes de caractères.",
+            "content": "Les chaînes sont utilisées pour stocker du texte/des caractères. Contrairement à de nombreux autres langages de programmation, C n'a pas de type String pour créer facilement des variables de chaîne. Au lieu de cela, vous devez utiliser un tableau de `char` et le terminer par un caractère nul.",
+            "exercise": { "question": "Créez une variable de chaîne contenant la valeur 'Volvo' et affichez-la." }
+        },
+        "c-function-parameters-18": {
+            "title": "Paramètres de fonction",
+            "description": "Apprenez à passer des données aux fonctions.",
+            "content": "Des informations peuvent être passées à des fonctions en tant que paramètre. Les paramètres agissent comme des variables à l'intérieur de la fonction. Vous pouvez ajouter autant de paramètres que vous le souhaitez, il suffit de les séparer par une virgule.",
+            "exercise": { "question": "Créez une fonction qui prend deux entiers et affiche leur somme." }
+        },
+        "c-user-input-19": {
+            "title": "Entrée utilisateur",
+            "description": "Apprenez à obtenir une entrée de l'utilisateur.",
+            "content": "La fonction `scanf()` est utilisée pour obtenir une entrée utilisateur. Elle prend deux arguments : le spécificateur de format de la variable (`%d`, `%c`, etc.) et l'opérateur de référence `&` sur la variable pour stocker l'entrée.",
+            "exercise": { "question": "Écrivez un programme qui demande le prénom de l'utilisateur puis le salue." }
+        },
+        "c-enums-20": {
+            "title": "Énumérations",
+            "description": "Apprenez à créer votre propre type de données avec un ensemble de valeurs constantes.",
+            "content": "Un `enum` est un type spécial qui représente un groupe de constantes (valeurs immuables). Pour créer une énumération, utilisez le mot-clé `enum`, suivi du nom de l'énumération, et séparez les éléments de l'énumération par une virgule.",
+            "exercise": { "question": "Créez une énumération pour `Status` avec les valeurs PENDING, APPROVED et REJECTED, puis affichez la valeur numérique de APPROVED." }
+        }
+    }
+}

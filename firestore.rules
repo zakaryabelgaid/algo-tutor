@@ -1,0 +1,75 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions to check user roles
+    function isUserAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isAdmin() {
+      // Admins have a specific document field `role == 'admin'`
+      // This is less secure than custom claims but required by the app's current architecture.
+      return isUserAuthenticated() && get(/databases/$(database)/documents/teachers/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    function isApprovedTeacher() {
+      let teacherDoc = get(/databases/$(database)/documents/teachers/$(request.auth.uid)).data;
+      return isUserAuthenticated() && teacherDoc.role == 'teacher' && teacherDoc.isApproved == true;
+    }
+    
+    // Global admin rule: Admins can do anything.
+    match /{document=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // Teachers collection rules
+    match /teachers/{teacherId} {
+      // Anyone can read teacher profiles (for the public teachers page)
+      allow read: if true;
+      // Users can only create their own teacher document upon registration.
+      allow create: if isUserAuthenticated();
+      // Teachers can only update their own profile, Admins can update any.
+      allow update: if request.auth.uid == teacherId;
+      // Deletes are handled by the admin global rule.
+    }
+
+    // Lessons collection rules
+    match /lessons/{lessonId} {
+      // Anyone can read lessons
+      allow read: if true;
+      // Only admins can create, update, or delete lessons
+      allow create, update, delete: if isAdmin();
+    }
+
+    // News collection rules
+    match /news/{articleId} {
+      // Anyone can read news
+      allow read: if true;
+      // Admins or approved teachers can create, update, and delete news
+      allow write: if isAdmin() || isApprovedTeacher();
+    }
+
+    // Questions collection rules
+    match /questions/{questionId} {
+      // Anyone can create a question
+      allow create: if true;
+      // Admins and approved teachers can read all questions
+      allow read: if isAdmin() || isApprovedTeacher();
+      // Admins and approved teachers can update (answer, pin) questions
+      allow update: if isAdmin() || isApprovedTeacher();
+      // Only admins can delete questions
+      allow delete: if isAdmin();
+    }
+
+    // Uploads collection rules
+    match /uploads/{uploadId} {
+        // Anyone can read file metadata
+        allow read: if true;
+        // Admins or approved teachers can upload or delete files
+        allow create, delete: if isAdmin() || isApprovedTeacher();
+        // The creator of the file or an admin can update its metadata
+        allow update: if (isApprovedTeacher() && resource.data.teacherId == request.auth.uid) || isAdmin();
+    }
+  }
+}

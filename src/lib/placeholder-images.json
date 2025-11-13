@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract futuristic blue digital background",
+      "imageUrl": "https://images.unsplash.com/photo-1510906594845-bc082582c8cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzYyODY5MTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract technology"
+    },
+    {
+      "id": "feature-1",
+      "description": "A person studying C programming book",
+      "imageUrl": "https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9ncmFtbWluZyUyMGJvb2t8ZW58MHx8fHwxNzYyOTQ4Mjg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "programming book"
+    },
+    {
+      "id": "feature-2",
+      "description": "A computer screen with C code and a compiler interface",
+      "imageUrl": "https://images.unsplash.com/photo-1565687981296-535f09db714e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2RlJTIwY29tcGlsZXJ8ZW58MHx8fHwxNzYyOTQ4Mjg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code compiler"
+    },
+    {
+      "id": "feature-3",
+      "description": "An illustration of an AI robot helping a person learn",
+      "imageUrl": "https://images.unsplash.com/photo-1555255707-c07966088b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb2JvdCUyMGxlYXJuaW5nfGVufDB8fHx8MTc2Mjg1NzkyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot learning"
+    },
+    {
+      "id": "teacher-1",
+      "description": "Avatar for teacher Jane Doe",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2Mjg4ODYyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "teacher-2",
+      "description": "Avatar for teacher John Smith",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI4NTg1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "teacher-3",
+      "description": "Avatar for teacher Emily White",
+      "imageUrl": "https://images.unsplash.com/photo-1679611978819-f10168367155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzYyOTQ2NzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman face"
+    },
+    {
+      "id": "teacher-4",
+      "description": "Avatar for teacher Michael Brown (unapproved)",
+      "imageUrl": "https://images.unsplash.com/photo-1619182597083-17bda72c1d56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBmYWNlfGVufDB8fHx8MTc2MjkxNDYwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man face"
+    }
+  ]
+}
