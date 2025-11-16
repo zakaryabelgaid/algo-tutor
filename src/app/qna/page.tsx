@@ -7,7 +7,7 @@ import { UserContext } from '@/context/user-context';
 import { useTranslation } from '@/context/language-context';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Pin } from 'lucide-react';
-import { QnaForm } from '@/components/qna-form';
+import { QnaFormWrapper } from '@/components/qna-form-wrapper';
 
 export default function QnaPage() {
   const { questions, teachers } = useContext(UserContext);
@@ -73,7 +73,7 @@ export default function QnaPage() {
             )}
         </div>
          <div className="md:col-span-1">
-            <QnaForm />
+            <QnaFormWrapper />
         </div>
       </div>
     </div>

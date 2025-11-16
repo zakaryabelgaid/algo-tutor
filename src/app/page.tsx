@@ -30,7 +30,7 @@ import { Header } from '@/components/header';
 import { NewsContext } from '@/context/news-context';
 import { UserContext } from '@/context/user-context';
 import { useTranslation } from '@/context/language-context';
-import { QnaForm } from '@/components/qna-form';
+import { QnaFormWrapper } from '@/components/qna-form-wrapper';
 import dynamic from 'next/dynamic';
 
 const ParticlesBackground = dynamic(
@@ -202,7 +202,7 @@ export default function LandingPage() {
 
             {/* Sidebar */}
             <div className="lg:col-span-1 space-y-8">
-              <QnaForm />
+              <QnaFormWrapper />
             </div>
           </div>
         </div>
